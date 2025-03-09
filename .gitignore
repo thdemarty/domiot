@@ -1,0 +1,10 @@
+.env
+homeassistant/config/.cloud/
+homeassistant/config/.storage/
+homeassistant/config/deps/
+homeassistant/config/home-assistant_v2.db
+homeassistant/config/home-assistant.log
+homeassistant/config/home-assistant.log.1
+homeassistant/config/blueprints/
+nginx-proxy-manager/
+authentik/
