@@ -1,9 +1,9 @@
 .env
 
 nginx-proxy-manager/*
-
+authentik/*
 # Ignore everything in the homeassistant folder except for this file
-homeassistant/
+homeassistant/*
 
 !homeassistant/configuration.yaml
 !homeassistant/scenes.yaml
