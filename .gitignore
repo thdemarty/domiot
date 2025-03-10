@@ -1,10 +1,13 @@
 .env
-homeassistant/config/.cloud/
-homeassistant/config/.storage/
-homeassistant/config/deps/
-homeassistant/config/home-assistant_v2.db
-homeassistant/config/home-assistant.log
-homeassistant/config/home-assistant.log.1
-homeassistant/config/blueprints/
-nginx-proxy-manager/
-authentik/
+
+nginx-proxy-manager/*
+
+# Ignore everything in the homeassistant folder except for this file
+homeassistant/
+
+!homeassistant/configuration.yaml
+!homeassistant/scenes.yaml
+!homeassistant/secrets.yaml
+!homeassistant/automations.yaml
+!homeassistant/custom_components/
+!homeassistant/.HA_VERSION
