@@ -9,6 +9,9 @@ with dnsmasq, resolve home.internal to 127.0.0.1
 
 > [!WARNING]  
 > TODO
+Few links to help you :
+* https://doc.ubuntu-fr.org/configuration_serveur_dns_dhcp
+* https://stackoverflow.com/questions/22313142/wildcard-subdomains-with-dnsmasq
 
 ### Setup the project
 The first step is to clone the repository and setup an `.env` file. Run the following command to generate a password and secret key and write them to your `.env` file :
